@@ -17,4 +17,22 @@ class Solution:
 '''
 Time Complexity: O(N)
 Space Complexity: O(N)
+
+**************
+2nd Approach (easier to understand)
+'''
+class Solution:
+    def containsNearbyDuplicate(self, nums: List[int], k: int) -> bool:
+        hashSet = set()
+        for i in range(len(nums)):
+            if i > k:
+                hashSet.remove(nums[i - k - 1])
+            if nums[i] in hashSet:
+                return True
+            else:
+                hashSet.add(nums[i])
+        return False
+'''
+Time Complexity: O(N)
+Space Complexity: O(k)
 '''
