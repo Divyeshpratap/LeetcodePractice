@@ -18,4 +18,21 @@ class Solution:
 '''
 Time Complexity: O(n)
 Space Complexity: O(1)
+**********************
+Second Simpler but less efficient solution
 '''
+class Solution:
+    def removeDuplicates(self, nums: List[int]) -> int:
+
+        for i in reversed(range(2, len(nums))):
+            if nums[i] == nums[i - 1] == nums[i - 2]:
+                nums.pop(i)
+'''
+Time Complexity: O(n^2)
+Space Complexity: O(1)
+**********************
+Summary Statistics:
+Runtime: 55 ms, faster than 35.03% of Python3 online submissions for Remove Duplicates from Sorted Array II.
+Memory Usage: 16.4 MB, less than 93.99% of Python3 online submissions for Remove Duplicates from Sorted Array II.
+'''
+

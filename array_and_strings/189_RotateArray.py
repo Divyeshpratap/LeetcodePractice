@@ -18,4 +18,8 @@ class Solution:
 '''
 Time Complexity: O(n)
 Space Complexity: O(1)
+**********************
+Summary Statistics:
+Runtime: 153 ms, faster than 78.76% of Python3 online submissions for Rotate Array.
+Memory Usage: 28.3 MB, less than 7.95% of Python3 online submissions for Rotate Array.
 '''

@@ -29,4 +29,7 @@ class Solution:
 '''
 Time Complexity: O(N^2)
 Space Complexity: O(1)
+Summary Statistics:
+Runtime: 96 ms, faster than 94.07% of Python3 online submissions for Jump Game II.
+Memory Usage: 17.4 MB, less than 91.93% of Python3 online submissions for Jump Game II.
 '''
