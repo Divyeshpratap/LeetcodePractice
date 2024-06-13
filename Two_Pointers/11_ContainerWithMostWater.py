@@ -23,4 +23,8 @@ class Solution:
 '''
 Time Complexity: O(N)
 Space Complexity: O(1)
+**********************
+Summary Statistics:
+Runtime: 510 ms, faster than 77.12% of Python3 online submissions for Container With Most Water.
+Memory Usage: 30.1 MB, less than 10.20% of Python3 online submissions for Container With Most Water.
 '''

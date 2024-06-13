@@ -21,4 +21,8 @@ class Solution:
 '''
 Time Complexity: O(N)
 Space Complexity: O(1)
+**********************
+Summary Statistics:
+Runtime: 104 ms, faster than 61.00% of Python3 online submissions for Two Sum II - Input Array Is Sorted.
+Memory Usage: 17.3 MB, less than 80.74% of Python3 online submissions for Two Sum II - Input Array Is Sorted.
 '''
