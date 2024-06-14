@@ -16,4 +16,6 @@ class Solution:
 '''
 Time Complexity: O(N)
 Space Complexity: O(1)
+Runtime: 39 ms, faster than 40.11% of Python3 online submissions for Reverse Words in a String.
+Memory Usage: 16.6 MB, less than 66.73% of Python3 online submissions for Reverse Words in a String.
 '''
