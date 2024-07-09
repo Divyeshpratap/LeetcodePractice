@@ -33,4 +33,8 @@ class Solution:
 '''
 Time Complexity: O(N*M)
 Space Complexity: O(N*M)
+************************
+Summary Statistics:
+Runtime: 290 ms, faster than 22.59% of Python3 online submissions for Number of Islands.
+Memory Usage: 24.3 MB, less than 18.91% of Python3 online submissions for Number of Islands.
 '''
