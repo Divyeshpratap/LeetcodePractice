@@ -16,4 +16,6 @@ class Solution:
 '''
 Time Complexity: O(Nlog(N))
 Space Complexity: O(N)
+Runtime: 91 ms, faster than 50.52% of Python3 online submissions for Group Anagrams.
+Memory Usage: 19.3 MB, less than 98.28% of Python3 online submissions for Group Anagrams.
 '''

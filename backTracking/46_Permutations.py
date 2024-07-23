@@ -27,4 +27,8 @@ class Solution:
 '''
 Time Complexity: O(n*n!)
 Space Complexity: O(n*n!)
+*************************
+Summary Statistics:
+Runtime: 29 ms, faster than 98.40% of Python3 online submissions for Permutations.
+Memory Usage: 16.6 MB, less than 54.83% of Python3 online submissions for Permutations.
 '''

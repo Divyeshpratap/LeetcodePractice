@@ -33,4 +33,8 @@ class Solution:
 '''
 Time Complexity: O(N*4^N)
 Space Complexity: O(4^N)
+************************
+Summary Statistics:
+Runtime: 26 ms, faster than 96.40% of Python3 online submissions for Letter Combinations of a Phone Number.
+Memory Usage: 16.6 MB, less than 7.14% of Python3 online submissions for Letter Combinations of a Phone Number.
 '''
