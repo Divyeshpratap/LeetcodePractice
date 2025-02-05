@@ -1,2 +1,2 @@
-# 100DaysLeetcodeChallenge
+# Leetcode Practice
 Data Structures and Algorithms
