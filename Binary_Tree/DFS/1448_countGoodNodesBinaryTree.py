@@ -21,7 +21,7 @@ class Solution:
         self.count = 0
     def goodNodes(self, root: TreeNode) -> int:
         maxVal = float('-inf')
-        def dfs(self, node, maxVal):
+        def dfs(node, maxVal):
             if not node:
                 return
             if node.val >= maxVal:
@@ -29,10 +29,10 @@ class Solution:
                 maxVal = node.val
             if not node.left and not node.right:
                 return
-            dfs(self, node.left, maxVal)
-            dfs(self, node.right, maxVal)
+            dfs(node.left, maxVal)
+            dfs(node.right, maxVal)
 
-        dfs(self, root, maxVal)
+        dfs(root, maxVal)
         return self.count
 '''
 Time Complexity: O(N)
