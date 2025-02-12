@@ -17,12 +17,10 @@ class Solution:
             if not node:
                 return None
             if node == p or node == q:
-                # print(f'inside equal loop')
                 return node
 
             l = dfs(node.left)
             r = dfs(node.right)
-            # print(f'l value is {l}, and r value is {r}')
             if l and r:
                 return node
             else:
